@@ -1,0 +1,483 @@
+                /* Mobile */
+                
+                @media (max-width:739px) {
+                    .hidden-mobile {
+                        display: none;
+                    }
+                    /* Responsive header */
+                    .header1 {
+                        display: flex;
+                        height: 150px;
+                        justify-content: center;
+                    }
+                    .logo {
+                        position: unset;
+                        width: 150px;
+                        margin: 30px 0 0 auto;
+                        transform: translateX(10px);
+                    }
+                    .nav1__login {
+                        margin: 40px 20px 0 0;
+                        transform: translateX(43px);
+                    }
+                    .nav1 {
+                        display: flex;
+                        flex-direction: column;
+                    }
+                    #slide {
+                        padding-top: 50%;
+                    }
+                    .slide__choose {
+                        padding: unset;
+                        margin: unset;
+                        border: unset;
+                        background-color: #e5e5e5;
+                    }
+                    .slide__choose--color {
+                        background-color: var(--main-color1);
+                        color: #ffff;
+                    }
+                    .slide__selection-title {
+                        color: #000;
+                    }
+                    .slide__selection-title--center {
+                        color: #fff;
+                    }
+                    .slide__selection-icon {
+                        color: #000;
+                    }
+                    .slide__selection-title {
+                        background-color: transparent;
+                        border: none;
+                    }
+                    .favourite__img {
+                        position: relative;
+                        height: 180px;
+                    }
+                    .container__news {
+                        width: 100%;
+                        height: 1000px;
+                        background-size: 100% 600px;
+                        background-image: url(https://nhacchuonghinhnen.com/wp-content/uploads/2020/05/bst-hinh-nen-bau-troi-cho-dien-thoai-dep-nhat-moi-nhat-nam-2020-13.jpg);
+                    }
+                    .new__img {
+                        margin-left: 12px;
+                        margin-right: 12px;
+                    }
+                    .new__img-info-icon,
+                    .new__img-info-mobile,
+                    .new__img-page {
+                        display: block;
+                    }
+                    .container__abum {
+                        transform: translateY(-400px);
+                    }
+                    .abum__img2,
+                    .abum__img3 {
+                        margin-top: 7px;
+                    }
+                    .container__why-choose {
+                        margin-left: 30px;
+                    }
+                    .container__why {
+                        height: 700px;
+                        background-size: 100% 700px;
+                        background-image: url(https://1.bp.blogspot.com/-mgjry3ba7O4/Xngd8iV3GSI/AAAAAAAAiOo/Um4ayYG_or86jz9S-XeuOyyjZpr1n94cgCLcBGAsYHQ/s1600/bai-bien-trong-xanh-hinh-nen-thien-nhien-dep-cho-dien-thoai.jpg);
+                    }
+                    .container__why-choose-us {
+                        margin-top: -420px;
+                    }
+                    .container__why-line-mobile {
+                        display: block;
+                    }
+                    .partner__line {
+                        position: relative;
+                    }
+                    .container__partner-img {
+                        position: absolute;
+                        height: 65px;
+                        width: 190px;
+                        margin-left: unset;
+                        left: 50%;
+                        transform: translateX(-50%);
+                    }
+                    .container__partner-list {
+                        display: flex;
+                    }
+                    .container__notify {
+                        height: 450px;
+                        margin-top: 100px;
+                        background-size: 100% 450px;
+                        background-image: url(https://phongvu.vn/cong-nghe/wp-content/uploads/2018/09/22586f503296d85.jpg);
+                    }
+                    .container__why-choose {
+                        display: flex;
+                        margin-top: 35px;
+                    }
+                    .container__head {
+                        margin-left: 10px;
+                        margin-right: 10px;
+                    }
+                    .container__notify-head h1 {
+                        line-height: 6rem;
+                    }
+                    .footer__connect {
+                        margin-top: -30px;
+                    }
+                    .footer__address {
+                        margin-top: -40px;
+                    }
+                    .footer__nocopy {
+                        height: 100px;
+                    }
+                    .footer__nocopy span {
+                        line-height: 100px;
+                    }
+                    .img__icon {
+                        width: 40px;
+                        height: 40px;
+                    }
+                    .favourite__name {
+                        font-size: 1.2rem;
+                    }
+                    .rl__gutters {
+                        margin-left: 4px;
+                        margin-right: 4px;
+                    }
+                    .container__notify-head {
+                        margin-left: 8px;
+                        margin-right: 8px;
+                    }
+                    .gutters__favourite {
+                        margin-left: 4px;
+                        margin-right: 4px;
+                    }
+                    .container__info-star {
+                        right: 13px;
+                        top: 67px;
+                    }
+                    .container__info-star i {
+                        font-size: 1.3rem;
+                    }
+                    .gutters__abum {
+                        margin-left: 4px;
+                        margin-right: 4px;
+                    }
+                    .overlay__slide {
+                        height: inherit;
+                        background-color: turquoise;
+                    }
+                    .slide__center {
+                        line-height: 48px;
+                        margin-top: 21px;
+                    }
+                    .container__mobile {
+                        margin-top: 33px;
+                    }
+                    .slide__search input {
+                        padding: 15px 0 15px 20px;
+                        padding-right: 227px;
+                        border-radius: unset;
+                    }
+                    .btn__slide-search {
+                        margin-top: unset;
+                    }
+                    .navlv2__tour,
+                    .navlv2__address {
+                        top: 49px;
+                    }
+                    .slide__search-icon {
+                        right: 54px;
+                    }
+                    .container__abum-head {
+                        margin-left: 8px;
+                        margin-right: 8px;
+                    }
+                }
+                /* Tablet*/
+                
+                @media (min-width:740px)and (max-width:1025px) {
+                    .hidden-tablet {
+                        display: none;
+                    }
+                    /* Responsive header */
+                    .logo {
+                        position: unset;
+                        width: 140px;
+                        max-height: 45px;
+                        margin: auto;
+                    }
+                    .nav1__search {
+                        left: -20px;
+                    }
+                    .search__input {
+                        padding: 10px 120px 10px 20px;
+                    }
+                    .nav1__login {
+                        margin-left: unset;
+                        margin-right: 50px;
+                    }
+                    .nav1__search-icon {
+                        right: 0;
+                        bottom: 17px;
+                        padding: 8px 18px;
+                    }
+                    .slide__search input {
+                        padding-right: 68px;
+                    }
+                    .container__news {
+                        width: 100%;
+                        background-size: 100% 600px;
+                        background-image: url(https://1.bp.blogspot.com/-KpObeo9JA3c/XpvD-RoH1-I/AAAAAAAAAaQ/iCgUj5v7MQMzgLMiiW0qlCyxW98XRbmBACLcBGAsYHQ/s1600/hinh-nen-full-hd-1080p-cho-dien-thoai%2B%25281%2529.jpg);
+                    }
+                    .container__abum {
+                        transform: translateY(-100px);
+                    }
+                    .abum__img1 {
+                        height: 186px;
+                        width: 100%;
+                        object-fit: cover;
+                        display: block;
+                        transition: 0.4s;
+                    }
+                    .abum__img2,
+                    .abum__img3 {
+                        margin-top: unset;
+                        display: block;
+                    }
+                    .dow-the-line {
+                        margin-top: 20px;
+                    }
+                    .img__abum {
+                        margin-top: 14px;
+                    }
+                    .container__why-choose-us {
+                        margin-top: -100px;
+                    }
+                    .container__why {
+                        height: 450px;
+                        background-size: 100% 450px;
+                    }
+                    .container__why-choose {
+                        margin-left: 20px;
+                    }
+                    .container__why-line-ipad {
+                        display: block;
+                    }
+                    .container__partner-img {
+                        height: 50px;
+                        width: 80%;
+                        margin-left: 20px;
+                    }
+                    .container__notify {
+                        height: unset;
+                        height: 400px;
+                        background-size: 100% 400px;
+                        background-image: url('/asset/img/mountains-276995_1920.jpg');
+                    }
+                    .slide__center {
+                        margin-left: 4px;
+                        margin-right: 14px;
+                    }
+                    .slide__center,
+                    .rl__gutters,
+                    .rl__new,
+                    .gutters__abum {
+                        margin-left: 4px;
+                        margin-right: 4px;
+                    }
+                    .overlay__notify {
+                        height: 400px;
+                    }
+                }
+                /* ipad pro */
+                
+                @media (min-width:1024px)and (max-width:1365px) {
+                    .slide__search input {
+                        padding-right: 153px;
+                    }
+                    .search__input {
+                        padding: 12px 200px 12px 20px;
+                    }
+                    .nav1__search-icon {
+                        bottom: 15px;
+                        padding: 10px 18px;
+                    }
+                    .slide__center,
+                    .rl__gutters,
+                    .rl__new,
+                    .gutters__abum {
+                        margin-left: 4px;
+                        margin-right: 4px;
+                    }
+                }
+                
+                @media (min-width: 1113px) {
+                    .hidden-pc {
+                        display: none;
+                    }
+                }
+                /* CSS Responsive */
+                
+                .overlay {
+                    position: fixed;
+                    top: 0;
+                    left: 0;
+                    right: 0;
+                    bottom: 0;
+                    background-color: rgba(0, 0, 0, 0.3);
+                    display: none;
+                    z-index: 99999;
+                }
+                
+                .nav__res-icon {
+                    margin: auto 0 auto 20px;
+                }
+                
+                .nav__res-icon i {
+                    font-size: 2rem;
+                    color: #ffff;
+                }
+                
+                .nav__res {
+                    position: fixed;
+                    top: 0;
+                    left: 0;
+                    bottom: 0;
+                    width: 250px;
+                    background-color: #ffff;
+                    box-shadow: 0 1px 2px rgba(58, 26, 26, 0.9);
+                    border-radius: 2px;
+                    opacity: 0;
+                    transform: translateX(-100%);
+                    transition: all 0.3s;
+                    z-index: 99999;
+                }
+                
+                .nav__res-list {}
+                
+                .nav__res-item {
+                    display: flex;
+                    flex-direction: column;
+                }
+                
+                .nav__res-link {
+                    position: relative;
+                }
+                
+                .nav__res-item>.nav__res-link>.nav__res-icon {
+                    position: absolute;
+                    top: 12px;
+                    right: 30px;
+                    font-size: 2rem;
+                    color: var(--text-color);
+                }
+                
+                .nav__res-item>.nav__res-link>.nav__res-icon1 {
+                    position: absolute;
+                    top: 14px;
+                    right: 150px;
+                    font-size: 2rem;
+                    color: var(--text-color);
+                }
+                
+                .nav__res-item>.nav__res-link>.nav__res-icon2 {
+                    position: absolute;
+                    top: 14px;
+                    right: 120px;
+                    font-size: 2rem;
+                    color: var(--text-color);
+                }
+                
+                .nav__res-close {
+                    position: absolute;
+                    top: 10px;
+                    right: 20px;
+                    font-size: 3rem;
+                    color: #333;
+                    z-index: 1;
+                }
+                
+                .nav__res-item a {
+                    display: block;
+                    padding: 14px 0 14px 20px;
+                    font-size: 1.4rem;
+                    color: var(--text-color);
+                    border-bottom: 1px solid #e5e5e5;
+                }
+                
+                .nav__res-item a:nth-child(1) {
+                    background-color: var(--main-color1);
+                    color: #fff;
+                }
+                
+                .nav__res-link:hover {
+                    color: var(--main-color1)
+                }
+                
+                .nav__res-link:hover>.nav__res-icon {
+                    color: var(--main-color1)
+                }
+                
+                .nav__res-link:hover>.nav__res-icon1 {
+                    color: var(--main-color1)
+                }
+                
+                .nav__res-link:hover>.nav__res-icon2 {
+                    color: var(--main-color1)
+                }
+                
+                .click:checked~.overlay {
+                    display: block;
+                }
+                
+                .click:checked~.nav__res {
+                    transform: translateX(0);
+                    opacity: 1;
+                }
+                /* Search mobile */
+                
+                .search__mobile {
+                    position: relative;
+                    justify-content: center;
+                    margin-top: 74px;
+                    margin-left: -210px;
+                }
+                
+                .search__mobile input {
+                    display: block;
+                    padding: 10px 130px 10px 15px;
+                    outline: none;
+                    border: none;
+                }
+                
+                .search__mobile-icon {
+                    position: absolute;
+                    top: 0;
+                    right: 0;
+                    color: #ffff;
+                    font-size: 1.6rem;
+                    padding: 9.8px 20px;
+                    background-color: var(--main-color1);
+                }
+                
+                .next__partner {
+                    font-size: 3.5rem;
+                    color: #333;
+                }
+                
+                .container__partner-list {
+                    display: flex;
+                    max-width: 100%;
+                    overflow-x: auto;
+                    display: none;
+                }
+                
+                .container__partner-item {
+                    padding: 0 30px;
+                }
+                
+                .container__partner-item img {
+                    height: 75px;
+                    object-fit: cover;
+                }
